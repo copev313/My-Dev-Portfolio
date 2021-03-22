@@ -9,6 +9,9 @@
 
     --shadowSettings: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     --themeDotBorder: #24292e;
+
+    --previewBackground: rgba(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6;
 }
 
 html, body {
@@ -71,7 +74,6 @@ h6 { font-size: 16px; }
     background-color: var(--secondaryColor);
     border: 2px solid var(--borderColor);
     border-radius: 5px 5px 0 0;
-
     -webkit-box-shadow: var(--shadowSettings);
     -moz-box-shadow: var(--shadowSettings);
     box-shadow: var(--shadowSettings);
@@ -88,7 +90,6 @@ h6 { font-size: 16px; }
     border-radius: 5px 5px 0 0;
     grid-area: nav-wrapper;
     border-bottom: 1px solid var(--borderColor);
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,7 +118,6 @@ h6 { font-size: 16px; }
     width: 15px;
     border-radius: 50%;
     margin: 5px;
-
     -webkit-box-shadow: var(--shadowSettings);
     -moz-box-shadow: var(--shadowSettings);
     box-shadow: var(--shadowSettings);
@@ -136,7 +136,6 @@ h6 { font-size: 16px; }
 #profile-pic {
     display: block;
     margin: 0 auto;
-
     height: 200px;
     width: 200px;
     object-fit: cover;
@@ -152,14 +151,11 @@ h6 { font-size: 16px; }
     height: 30px;
     width: 30px;
     border-radius: 50%;
-
     margin: 5px;
     border: 2px solid var(--themeDotBorder);
-
     -webkit-box-shadow: var(--shadowSettings);
     -moz-box-shadow: var(--shadowSettings);
     box-shadow: var(--shadowSettings);
-
     cursor: pointer;
 }
 
@@ -193,12 +189,75 @@ h6 { font-size: 16px; }
 
 .right-column {
     grid-area: right-column;
-    
+    display: grid;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+#preview-shadow {
+    background-color: var(--previewShadow);
+    width: 300px;
+    height: 180px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#preview {
+    width: 300px;
+    height: 180px;
+    border: 2px solid #17a2b8; 
+    background-color: var(--previewBackground);
+    padding: 15px;
+    position: relative;
+}
+
+.corner {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border: 2px solid #17a2b8;
+    background-color: #fff;
+    position: absolute;
+}
+
+#corner-tl {
+    top: -5px;
+    left: -5px;
+}
+
+#corner-tr {
+    top: -5px;
+    right: -5px;
+}
+
+#corner-br {
+    bottom: -5px;
+    right: -5px;
+}
+
+#corner-bl {
+    bottom: -5px;
+    left: -5px;
+}
 
 @media screen and (max-width: 1200px) {
     .main-container {
         width: 95%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .intro-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            'nav-wrapper',
+            'left-column',
+            'right-column'
+        ;
+    }
+
+    .right-column {
+        justify-content: center;
     }
 }

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Evan Cope</title>
-
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="default.css">
-    <style type="text/javascript" src="script.js"></style>
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
     <section class="s1">
         <div class="main-content">
             <div class="greeting-wrapper">
-                <h1>Hi! I'm Evan Cope</h1>
+                <h1>Hello World! I'm Evan Cope</h1>
             </div>
             
             <div class="intro-wrapper">
@@ -27,24 +27,21 @@
                     </div>
 
                     <ul id="navigation">
-                        <li><a href="#">Contact</a></li>
-                        <!-- Extra Nav Links
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        -->
+                        <li><a href="index.html#contact">Contact</a></li>
                     </ul>
                 </div>
 
                 <div class="left-column">
                     <img id= "profile-pic" src="images/toad.gif">
-                    <h5 style="text-align: center; line-height: 0;">Theme Selector</h5>
-                    <p id="settings-note">This theme will be saved<br> for your next visit!</p>
+                    <h5 style="text-align: center;line-height: 0;">Theme Selector</h5>
                     <div id="theme-options-wrapper">
                         <div id="light-mode" class="theme-dot"></div>
                         <div id="blue-mode" class="theme-dot"></div>
                         <div id="green-mode" class="theme-dot"></div>
                         <div id="purple-mode" class="theme-dot"></div>
                     </div>
+
+                    <p id="settings-note">This theme will be saved<br> for your next visit!</p>
                 </div>
 
                 <div class="right-column">
@@ -53,20 +50,56 @@
                             <div id = "corner-tl" class="corner"></div>
                             <div id = "corner-tr" class="corner"></div>
                             <h3>About Me</h3>
-                            <p>Words, words, words...</p>
+                            <p>Let me tell you a little bit about myself. Words, words, words...</p>
                             <div id = "corner-br" class="corner"></div>
                             <div id = "corner-bl" class="corner"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </div>
     </section>
 
     <section class="s2">
         <div class="main-content">
-            About
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about myself</h4>
+                    <p>I do stuff... I do stuff... I do stuff... I do stuff...</p>
+                    <p>And, I do things! And, I do things! And, I do things! And, I do things!</p>
+
+                    <hr>
+
+                    <h4>My Specialties</h4>
+                    <p>Many a thing... <a target="_blank" href="Eloquent JavaScript.pdf" >Download Resume</a> (Change later):</p>
+
+                    <div id="skills">
+                        <ul>
+                            <li>(skill)</li>
+                            <li>(skill)</li>
+                            <li>(skill)</li>
+                            <li>(skill)</li>
+                            <li>(skill)</li>
+                        </ul>
+
+                        <ul>
+                            <li>(skill)</li>
+                            <li>(skill)</li>
+                            <li>(skill)</li>
+                            <li>(skill)</li>
+                            <li>(skill)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <img id="social-image" src="images/walle-rubix.jpg">
+                    <h3>Check out my GitHub!</h3>
+                    <p><a target="_blank" href="https://github.com/copev313" >GitHub: Evan Cope (copev313)</a></p>
+                    <br>
+                    <p><a target="_blank" href="#" >Perhaps Something Else Here!</a></p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -82,6 +115,6 @@
         </div>
     </section>
 
+    <script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>

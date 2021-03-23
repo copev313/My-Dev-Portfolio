@@ -9,6 +9,8 @@
 
     --themeDotBorder: #24292e;
 
+    --shadowSettings: -1px 1px 3px -1px rgba(0,0,0,0.75);
+
     --previewBackground: rgba(251, 249, 243, 0.8);
     --previewShadow: #f0ead6;
     --previewShadowsShadow: #e0e0e0;
@@ -38,6 +40,7 @@ p, li, span, label, input, textarea {
 a { 
     text-decoration: none;
     color: #47a4b3;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a:hover {
@@ -59,6 +62,7 @@ h6 { font-size: 16px; }
     background-color: var(--mainColor);
     border-bottom: 1px solid var(--borderColor);
     overflow: auto;
+    padding: 0px 10px 20px 10px;
 }
 
 .s2 {
@@ -82,11 +86,11 @@ h6 { font-size: 16px; }
 .intro-wrapper {
     background-color: var(--secondaryColor);
     border: 2px solid var(--borderColor);
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
 
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--shadowSettings);
+    -moz-box-shadow: var(--shadowSettings);
+    box-shadow: var(--shadowSettings);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -141,9 +145,9 @@ h6 { font-size: 16px; }
     border-radius: 50%;
     margin: 5px;
 
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--shadowSettings);
+    -moz-box-shadow: var(--shadowSettings);
+    box-shadow: var(--shadowSettings);
 }
 
 .left-column {
@@ -182,9 +186,9 @@ h6 { font-size: 16px; }
     border: 2px solid var(--themeDotBorder);
     background-color: black;
 
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--shadowSettings);
+    -moz-box-shadow: var(--shadowSettings);
+    box-shadow: var(--shadowSettings);
     cursor: pointer;
 }
 
@@ -233,9 +237,9 @@ h6 { font-size: 16px; }
     border: 1.5px solid var(--previewShadowsShadow);
     border-radius: 1%;
 
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: var(--shadowSettings);
+    -moz-box-shadow: var(--shadowSettings);
+    box-shadow: var(--shadowSettings);
 }
 
 #preview {
@@ -245,10 +249,6 @@ h6 { font-size: 16px; }
     background-color: var(--previewBackground);
     padding: 15px;
     position: relative;
-
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 }
 
 .corner {
@@ -257,10 +257,6 @@ h6 { font-size: 16px; }
     border: 2px solid #17a2b8;
     background-color: #fff;
     position: absolute;
-
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 }
 
 #corner-tl {
@@ -286,8 +282,7 @@ h6 { font-size: 16px; }
 .about-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
     gap: 100px;
 }
 
@@ -307,9 +302,52 @@ h6 { font-size: 16px; }
     width: 100%;
     border-radius: 2%;
 
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--shadowSettings);
+    -moz-box-shadow: var(--shadowSettings);
+    box-shadow: var(--shadowSettings);
+}
+
+#post-contents {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    justify-content: center;
+}
+
+.post-wrapper {
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.post {
+    border: 1px solid var(--borderColor);
+    -webkit-box-shadow: var(--shadowSettings);
+    -moz-box-shadow: var(--shadowSettings);
+    box-shadow: var(--shadowSettings);
+}
+
+.thumbnail {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.post-preview {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.post-title {
+    color: black;
+    margin: 0;
+}
+
+.post-intro {
+    color: #4b5156;
+    font-size: 16px;
 }
 
 

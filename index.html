@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <link id="theme-style" rel="stylesheet" type="text/css" href="">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -154,7 +153,7 @@
         <div class="main-content">
             <h3 style="text-align: center;">Contact Me</h3>
 
-            <form action="POST" method="POST" id="contact-form" data-netlify-recaptcha="true" data-netlify="true">
+            <form action="POST" id="contact-form" data-netlify="true">
                 <label>Name</label>
                 <input class="input-field" type="text" name="name">
 
@@ -167,10 +166,6 @@
                 <label>Message</label>
                 <textarea class="input-field" type="text" name="message"></textarea>
 
-                <div class="g-recaptcha"
-                     data-sitekey="6Ldbh5waAAAAANfuStrSMXzXLGkINDw7mB0oDhWQ"
-                     data-netlify-recaptcha="true">
-                </div>
                 <input id="submit-btn" type="submit" value="Send">
             </form>
 

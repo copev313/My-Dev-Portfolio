@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-    color: #8d6adf;
+    color: #783eff;
 }
 
 ul {
@@ -404,7 +404,9 @@ h6 { font-size: 16px; }
     justify-content: center;
 }
 
-
+.todo {
+    color: rgb(255, 187, 0);
+}
 
 @media screen and (max-width: 1200px) {
     .main-container {

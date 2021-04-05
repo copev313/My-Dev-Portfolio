@@ -1,27 +1,34 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/783eb0a5-7bae-47ab-8f71-7c6424fd41c4/deploy-status)](https://app.netlify.com/sites/evans-dev-portfolio/deploys)
 
+
 # My-Dev-Portfolio
 Hi there, thanks for stopping by! This is my dev portfolio where you can learn a little bit about me and what I like to do. I list some of my applicable skills, and showcase a few of my noteworthy past projects and assignments.
 
+---------------------------
+
 ### TODO:
-[X] Set up for initial deployment
+- [X] Set up for initial deployment
 
-[] Customize CSS Default Styling
+- [ ] Customize CSS Default Styling
 
-[] Customize CSS Theme Colors
+- [ ] Customize CSS Theme Colors
 
-[] Finish Posts HTML
+- [ ] Finish Posts HTML
 
-[] Add My Project Posts
+- [ ] Add My Project Posts
 
-[] Fill in my skills
+- [ ] Fill in my skills
 
-[] Fill in my summaries
+- [ ] Fill in my summaries
 
-[] Add JS for submitting contact form
+- [X] Configuration for Netlify Forms
 
-[X] Configuration for Netlify Forms
+- [ ] Add shoutout for toad.gif
 
-[] Add shoutout for toad.gif
+- [ ] Update deployment with final product
 
-[] Update deployment with final product
+---------------------------
+
+### Shoutouts!
+
+- ...coming soon

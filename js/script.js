@@ -4,12 +4,7 @@ console.log("Hello from JavaScript!");
 
 let theme = localStorage.getItem('theme');
 
-if (theme == null) {
-    setTheme('light');
-} else {
-    setTheme(theme);
-}
-
+theme ? setTheme(theme) : setTheme(light);
 
 let themeDotsArr = document.getElementsByClassName('theme-dot')
 

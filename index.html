@@ -71,85 +71,101 @@
 
                     <h4>My Specialties</h4>
                     <p>Many a thing... <a target="_blank" href="resources/Eloquent JavaScript.pdf" >Download Resume</a>.</p>
-                    <p class="todo">(TODO: Change this later . . .)</p>
 
                     <div id="skills">
                         <ul>
-                            <li>> (skill)</li>
-                            <li>> (skill)</li>
-                            <li>> (skill)</li>
-                            <li>> (skill)</li>
-                            <li>> (skill)</li>
+                            <li> <ins><strong>PYTHON</strong></ins> </li>
+                            <li>>>> skill</li>
+                            <li>>>> skill</li>
+                            <li>>>> </li>
+                            <li>>>> </li>
+                            <li>>>> </li>
                         </ul>
 
                         <ul>
-                            <li>> (skill)</li>
-                            <li>> (skill)</li>
-                            <li>> (skill)</li>
-                            <li>> (skill)</li>
-                            <li>> (skill)</li>
+                            <li> <ins><strong>JAVASCRIPT</strong></ins> </li>
+                            <li>>>> skill</li>
+                            <li>>>> skill</li>
+                            <li>>>> </li>
+                            <li>>>> </li>
+                            <li>>>> </li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="social-links">
-                    <img id="social-image" src="images/walle-rubix.jpg">
-                    <h3>Check out my GitHub!</h3>
-                    <a target="_blank" href="https://github.com/copev313" >Evan Cope (copev313)</a>
-                    <a target="_blank" href="#" >Perhaps Something Else Here!</a>
+                    <a target="_blank" href="https://github.com/copev313">
+                        <img id="social-image" src="images\github_snip.png">
+                    </a>
+                    <h3 id="github-title">Check out my GitHub!</h3>
+                    
+                <!--<a target="_blank" href="#" >Perhaps Something Else Here!</a>-->
                 </div>
             </div>
         </div>
     </section>
 
     <section class="s1">
-        <div class="main-content">
+        <div class="main-content" id="past-projects">
             <h3 style="text-align: center;">Past Projects</h3>
 
             <div id="post-contents">
                 <div class="post-wrapper">
                     <div>
                         <div class="post">
-                            <img class="thumbnail" src="images\toad.png">
+                            <img class="thumbnail" src="images\reflect.jpg">
                             <div class="post-preview">
-                                <h6 class="post-title">Post Title</h6>
+                                <h6 class="post-title">
+                                    <a href="posts/post_1.html">
+                                        Django eCommerce Site
+                                    </a>
+                                </h6>
+                                <p class="post-intro">
+                                    An eCommerce platform built from scratch using React, Redux, Django & Postgres.
+                                </p>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+
+                <div class="post-wrapper">
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images\street.jpg">
+                            <div class="post-preview">
+                                <h6 class="post-title">
+                                    <a href="posts/post_2.html">
+                                        Post Title
+                                    </a>
+                                </h6>
+                                <p class="post-intro">
+                                    Here's a sentence.
+                                </p>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+
+                <div class="post-wrapper">
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images\kitkat.jpg">
+                            <div class="post-preview">
+                                <h6 class="post-title">
+                                    <a href="posts/post_3.html">
+                                        Post Title
+                                    </a>
+                                </h6>
                                 <p class="post-intro">Here's a sentence. Here is some more sentence.</p>
-                                <a href="posts/post_1.html">Read More</a>
                             </div>
                         </div>
                     </div>        
                 </div>
-
+            <!--
                 <div class="post-wrapper">
                     <div>
                         <div class="post">
-                            <img class="thumbnail" src="images\toad.png">
-                            <div class="post-preview">
-                                <h6 class="post-title">Post Title</h6>
-                                <p class="post-intro">Here's a sentence.</p>
-                                <a href="posts/post_2.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>        
-                </div>
-
-                <div class="post-wrapper">
-                    <div>
-                        <div class="post">
-                            <img class="thumbnail" src="images\toad.png">
-                            <div class="post-preview">
-                                <h6 class="post-title">Post Title</h6>
-                                <p class="post-intro">Here's a sentence. Here is some more sentence.</p>
-                                <a href="posts/post_3.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>        
-                </div>
-
-                <div class="post-wrapper">
-                    <div>
-                        <div class="post">
-                            <img class="thumbnail" src="images\toad.png">
+                            <img class="thumbnail" src="images\fiber.jpg">
                             <div class="post-preview">
                                 <h6 class="post-title">Post Title</h6>
                                 <p class="post-intro">Here's a sentence. Here is some more sentence.</p>
@@ -158,6 +174,7 @@
                         </div>
                     </div>        
                 </div>
+            -->
             </div>    
         </div>
     </section>
@@ -181,6 +198,20 @@
 
                 <input id="submit-btn" type="submit" value="Send">
             </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="s1">
+            <p id="footer-shoutout">
+                Shoutout to <a href="https://www.google.com/search?q=dennis+ivy">Dennis Ivy</a> for 
+                the portfolio ideas, and <a href="https://www.google.com/search?q=matt+tarpley">Matt Tarpley</a> for 
+                the grumpy toad (my spirit animal 😅).
+            </p>
+
+            <p id="footer-createdby">
+                Site created by E.Cope. Last Edited: April 2021.
+            </p>
         </div>
     </section>
 

@@ -5,14 +5,14 @@
 
     --borderColor: #1d1520;
 
-    --mainText: #fff;
-    --secondaryText: #eeeeee;
+    --mainTextColor: #fff;
+    --secondaryTextColor: #eeeeee;
 
-    --themeDotBorder: #fff;
+    --themeDotBorderColor: #fff;
 
     --shadowSettings: -1px 1px 3px -1px rgba(23, 1, 41, 0.774);
 
-    --previewBackground: rgba(34, 13, 42, 0.8);
+    --previewBackgroundColor: rgba(34, 13, 42, 0.8);
     --previewShadow: #2b202f;
     --previewShadowsShadow: #22003dc9;
 

@@ -2,7 +2,7 @@
 :root {
     --mainColor: #eaeaea;
     --secondaryColor: #fff;
-    --borderColor: #c1c1c1;
+    --borderColor: #bbbbbb;
 
     --mainTextColor: black;
     --secondaryTextColor: #4b5156;
@@ -13,8 +13,8 @@
     --themeDotBorderColor: #24292e;
     --shadowSettings: -1px 1px 3px -1px rgba(0,0,0,0.75);
 
-    --previewBackgroundColor: rgba(251, 249, 243, 0.8);
-    --previewShadowColor: #f0ead6;
+    --previewBackgroundColor: rgba(210, 237, 245, 0.801);
+    --previewShadowColor: #cccccc;
     --previewShadowsShadowColor: #e0e0e0;
 
     --previewBorderColor: #17a2b8;
@@ -223,8 +223,8 @@ h6 { font-size: 16px; }
 
 #preview-shadow {
     background-color: var(--previewShadowColor);
-    width: 300px;
-    height: 180px;
+    width: 325px;
+    height: 200px;
     padding-left: 30px;
     padding-top: 30px;
     border: 1.5px solid var(--previewShadowsShadowColor);
@@ -236,8 +236,8 @@ h6 { font-size: 16px; }
 }
 
 #preview {
-    width: 300px;
-    height: 180px;
+    width: 325px;
+    height: 200px;
     border: 2px solid var(--previewBorderColor);
     background-color: var(--previewBackgroundColor);
     padding: 15px;
@@ -245,8 +245,8 @@ h6 { font-size: 16px; }
 }
 
 .corner {
-    height: 7px;
-    width: 7px;
+    height: 8px;
+    width: 8px;
     border: 2px solid var(--previewBorderColor);
     background-color: var(--previewCornerFillColor);
     position: absolute;
@@ -279,10 +279,43 @@ h6 { font-size: 16px; }
     gap: 100px;
 }
 
+.about-wrapper hr {
+    margin-top: 2em;
+}
+
 #skills {
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadowColor);
+    padding: 10px 0;
+}
+
+.language-title {
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+#interests {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#interests ul {
+    padding: 0 4em;
+}
+
+.asterisk {
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: -0.2em;
+}
+
+#github-title {
+    font-size: 2.5em;
+    margin-top: 3em;
+    color: #7a2fa0;
+    opacity: 90%;
 }
 
 .social-links {
@@ -331,6 +364,7 @@ h6 { font-size: 16px; }
 .post-preview {
     background-color: var(--postBackgroundColor);
     padding: 15px;
+    height: 10em;
 }
 
 .post-title {

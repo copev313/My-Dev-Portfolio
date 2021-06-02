@@ -2,12 +2,11 @@
 <html>
 <head>
     <title>Evan's Portfolio</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/default.css">
-    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+    <meta content="width=device-width, initial-scale=1"  name="viewport" />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"  rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"  rel="stylesheet" />
+    <link href="css/default.css"  rel="stylesheet"  type="text/css" />
+    <link href=""  rel="stylesheet"  type="text/css"  id="theme-style" />
 </head>
 
 <body>
@@ -20,9 +19,9 @@
             <div class="intro-wrapper">
                 <div class="nav-wrapper">
                     <div class="dots-wrapper">
-                        <div id="dot-1" class="browser-dot"></div>
-                        <div id="dot-2" class="browser-dot"></div>
-                        <div id="dot-3" class="browser-dot"></div>
+                        <div class="browser-dot"  id="dot-1"></div>
+                        <div class="browser-dot"  id="dot-2"></div>
+                        <div class="browser-dot"  id="dot-3"></div>
                     </div>
 
                     <ul id="navigation">
@@ -31,27 +30,32 @@
                 </div>
 
                 <div class="left-column">
-                    <img id= "profile-pic" src="images/toad.gif">
-                    <h5 style="text-align: center;line-height: 0;">Theme Selector</h5>
+                    <img src="images/toad.gif"  id= "profile-pic" />
+                    <h5 style="text-align:center; line-height:0;">Theme Selector</h5>
                     <div id="theme-options-wrapper">
-                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
-                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
-                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                        <div class="theme-dot"  data-mode="light"   id="light-mode"></div>
+                        <div class="theme-dot"  data-mode="blue"    id="blue-mode"></div>
+                        <div class="theme-dot"  data-mode="green"   id="green-mode"></div>
+                        <div class="theme-dot"  data-mode="purple"  id="purple-mode"></div>
                     </div>
 
-                    <p id="settings-note">This theme will be saved<br> for your next visit!</p>
+                    <p id="settings-note">
+                        This theme will be saved<br> for your next visit!
+                    </p>
                 </div>
 
                 <div class="right-column">
                     <div id="preview-shadow">
                         <div id="preview">
-                            <div id = "corner-tl" class="corner"></div>
-                            <div id = "corner-tr" class="corner"></div>
+                            <div class="corner"  id = "corner-tl"></div>
+                            <div class="corner"  id = "corner-tr"></div>
                             <h3>About Me</h3>
-                            <p>Let me tell you a little bit about myself. Words, words, words...</p>
-                            <div id = "corner-br" class="corner"></div>
-                            <div id = "corner-bl" class="corner"></div>
+                            <p>
+                                I'm a math and techie nerd with a passion and knack for solving problems, 
+                                automating tasks, and coming up with innovative ideas.
+                            </p>
+                            <div class="corner"  id = "corner-br"></div>
+                            <div class="corner"  id = "corner-bl"></div>
                         </div>
                     </div>
                 </div>
@@ -63,41 +67,77 @@
         <div class="main-content">
             <div class="about-wrapper">
                 <div class="about-me">
-                    <h4>More about myself</h4>
-                    <p>I do stuff... I do stuff... I do stuff... I do stuff...</p>
-                    <p>And, I do things! And, I do things! And, I do things! And, I do things!</p>
-
+                    <h4>More About Myself . . .</h4>
+                    <p>
+                        I was surprised to find that my training in mathematics has made me an effective programmer!
+                        Both fields require finding creative solutions, which can often be refined down to logical and procedural tasks.
+                    </p>
+                    <p>
+                        Lately, I've been leveraging Python's powerful data analytics toolbox with the universal compatibility of web applications.
+                        In an attempt to explore more of the capabilites of the language, I've also dove into Python's web development landscape.
+                        After a lot of dabbling, I found Flask and Django to be refreshing frameworks to use, 
+                        especially after mainly using JavaScript based technologies in the past.
+                    </p>
                     <hr>
 
                     <h4>My Specialties</h4>
-                    <p>Many a thing... <a target="_blank" href="resources/Eloquent JavaScript.pdf" >Download Resume</a>.</p>
+                    <p>
+                        Here are a few skills and topics I've explored and keep in my utility belt for safe keeping.
+                        Check out my <a href="resources/Eloquent JavaScript.pdf"  target="_blank">résumé</a> if your interested.
+                    </p>
 
                     <div id="skills">
                         <ul>
-                            <li> <strong><ins>PYTHON</ins></strong> </li>
-                            <li>>>> skill</li>
-                            <li>>>> skill</li>
-                            <li>>>> </li>
-                            <li>>>> </li>
-                            <li>>>> </li>
+                            <li class="language-title">PYTHON</li>
+                            <li><span class="emoji-bullet">🧮</span> Numpy &amp; Pandas</li>
+                            <li><span class="emoji-bullet">📈</span> Matplotlib &amp; Seaborn</li>
+                            <li><span class="emoji-bullet">⌨️</span> Selenium, Pytest, Unittest</li>
+                            <li><span class="emoji-bullet">🤖</span> Machine Learning</li>
+                            <li><span class="emoji-bullet">🕸️</span> Beautiful Soup &amp; Scrapy</li>
+                            <li><span class="emoji-bullet">⚙️</span> Tkinter, PyQt, PySimpleGUI, Gooey</li>
+                            <li><span class="emoji-bullet">👨‍💻</span> Flask &amp; Django</li>
                         </ul>
 
                         <ul>
-                            <li> <strong><ins>JAVASCRIPT</ins></strong> </li>
-                            <li>>>> skill</li>
-                            <li>>>> skill</li>
-                            <li>>>> </li>
-                            <li>>>> </li>
-                            <li>>>> </li>
+                            <li class="language-title">JAVASCRIPT + HTML/CSS</li>
+                            <li><span class="emoji-bullet">⚛️</span> React</li>
+                            <li><span class="emoji-bullet">🚂</span> Express</li>
+                            <li><span class="emoji-bullet">➰</span> Handlebars, Numjucks, EJS</li>
+                            <li><span class="emoji-bullet">🥾</span> Tailwind, Bootstrap, Bulma</li>
+                            <li><span class="emoji-bullet">``</span> (...skill here...)</li>
+                            <li><span class="emoji-bullet">🃏</span> Puppeteer, Jest, Cypress</li>
+                            <li><span class="emoji-bullet">☁️</span> Google Apps Script</li>
+                        </ul>
+                    </div>
+                    <hr>
+
+                    <h4>My Interests</h4>
+                    <div id="interests">
+                        <ul>
+                            <li><span class="asterisk">*</span> Chat Bots</li>
+                            <li><span class="asterisk">*</span> NoSQL Databases</li>
+                            <li><span class="asterisk">*</span> Blockchain</li>
+                            <li><span class="asterisk">*</span> Google Apps Script</li>
+                            <li><span class="asterisk">*</span> Browser Automation</li>
+                            <li><span class="asterisk">*</span> Web Scraping</li>
+                        </ul>
+    
+                        <ul>
+                            <li><span class="asterisk">*</span> Number Theory</li>
+                            <li><span class="asterisk">*</span> Algebraic Structures</li>
+                            <li><span class="asterisk">*</span> Category Theory</li>
+                            <li><span class="asterisk">*</span> Neural Networks</li>
+                            <li><span class="asterisk">*</span> Probability</li>
+                            <li><span class="asterisk">*</span> (interest)</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="social-links">
-                    <a target="_blank" href="https://github.com/copev313">
-                        <img id="social-image" src="images\github_snip.png">
-                    </a>
                     <h3 id="github-title">Check out my GitHub!</h3>
+                    <a href="https://github.com/copev313"  target="_blank">
+                        <img src="images\github_snip.png"  id="social-image" />
+                    </a>
                     
                 <!--<a target="_blank" href="#" >Perhaps Something Else Here!</a>-->
                 </div>
@@ -106,22 +146,20 @@
     </section>
 
     <section class="s1">
-        <div class="main-content" id="past-projects">
-            <h3 style="text-align: center;">Past Projects</h3>
+        <div class="main-content"  id="past-projects">
+            <h3 style="text-align:center;">Past Projects</h3>
 
             <div id="post-contents">
                 <div class="post-wrapper">
                     <div>
                         <div class="post">
-                            <img class="thumbnail" src="images\reflect.jpg">
+                            <img src="images\reflect.jpg"  class="thumbnail" />
                             <div class="post-preview">
                                 <h6 class="post-title">
-                                    <a href="posts/post_1.html">
-                                        Django eCommerce Site
-                                    </a>
+                                    <a href="posts/post_1.html">Django eCommerce Site</a>
                                 </h6>
                                 <p class="post-intro">
-                                    An eCommerce platform built from scratch using React, Redux, Django & Postgres.
+                                    An eCommerce platform built from scratch using React, Redux, Django and Postgres.
                                 </p>
                             </div>
                         </div>
@@ -131,12 +169,10 @@
                 <div class="post-wrapper">
                     <div>
                         <div class="post">
-                            <img class="thumbnail" src="images\street.jpg">
+                            <img src="images\street.jpg"  class="thumbnail" />
                             <div class="post-preview">
                                 <h6 class="post-title">
-                                    <a href="posts/post_2.html">
-                                        Post Title
-                                    </a>
+                                    <a href="posts/post_2.html">Post Title</a>
                                 </h6>
                                 <p class="post-intro">
                                     Here's a sentence.
@@ -149,14 +185,14 @@
                 <div class="post-wrapper">
                     <div>
                         <div class="post">
-                            <img class="thumbnail" src="images\kitkat.jpg">
+                            <img src="images\kitkat.jpg"  class="thumbnail" />
                             <div class="post-preview">
                                 <h6 class="post-title">
-                                    <a href="posts/post_3.html">
-                                        Post Title
-                                    </a>
+                                    <a href="posts/post_3.html">Flask Web App</a>
                                 </h6>
-                                <p class="post-intro">Here's a sentence. Here is some more sentence.</p>
+                                <p class="post-intro">
+                                    More details to come . . . 
+                                </p>
                             </div>
                         </div>
                     </div>        
@@ -181,22 +217,22 @@
 
     <section class="s2">
         <div class="main-content">
-            <h3 style="text-align: center;">Contact Me</h3>
+            <h3 style="text-align:center;">Contact Me</h3>
 
-            <form action="POST" id="contact-form" data-netlify="true">
+            <form action="POST"  id="contact-form"  data-netlify="true">
                 <label>Name</label>
-                <input class="input-field" type="text" name="name">
+                <input class="input-field"  type="text"  name="name">
 
                 <label>Subject</label>
-                <input class="input-field" type="text" name="subject">
+                <input class="input-field"  type="text"  name="subject">
 
                 <label>Email</label>
-                <input class="input-field" type="text" name="email">
+                <input class="input-field"  type="text"  name="email">
 
                 <label>Message</label>
-                <textarea class="input-field" type="text" name="message"></textarea>
+                <textarea class="input-field"  type="text"  name="message"></textarea>
 
-                <input id="submit-btn" type="submit" value="Send">
+                <input id="submit-btn"  type="submit"  value="Send">
             </form>
         </div>
     </section>
@@ -204,17 +240,17 @@
     <section class="footer">
         <div class="s1">
             <p id="footer-shoutout">
-                Shoutout to <a href="https://www.google.com/search?q=dennis+ivy">Dennis Ivy</a> for 
-                the portfolio ideas, and <a href="https://www.google.com/search?q=matt+tarpley">Matt Tarpley</a> for 
-                the grumpy toad (my spirit animal 😅).
+                Shoutout to <a href="https://www.google.com/search?q=dennis+ivy">Dennis Ivy</a>
+                for the portfolio inspiration, and <a href="https://www.google.com/search?q=matt+tarpley">Matt Tarpley</a>
+                for the grumpy toad (my spirit animal 😅).
             </p>
 
             <p id="footer-createdby">
-                Site created by E.Cope. Last Edited: April 2021.
+                Site created by E.Cope. Last Edited: June 2021.
             </p>
         </div>
     </section>
 
-    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/script.js"  type="text/javascript"></script>
 </body>
 </html>

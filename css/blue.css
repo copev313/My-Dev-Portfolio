@@ -1,33 +1,36 @@
 
 :root {
-    --mainColor: #52c0ff;
-    --secondaryColor: rgb(29, 146, 255);
-    --borderColor: #1d195e;
+    --mainColor: #8CD5FF;
+    --secondaryColor: #B1F3FF;
+    --borderColor: #1F1985;
 
-    --mainTextColor: rgb(13, 13, 19);
-    --secondaryTextColor: #fff;
+    --mainTextColor: #000;
+    --secondaryTextColor: #000;
 
-    --linkTextColor: #0b24ff;
-    --linkTextColorOnHover: #8b59ff;
+    --linkTextColor: #1026EC;
+    --linkTextColorOnHover: #AA00FF;
 
-    --themeDotBorderColor: #131516;
-    --shadowSettings: -1px 1px 3px -1px rgba(0,0,0,0.9);
+    --themeDotBorderColor: #000;
+    --shadowSettings: -1px 1px 3px -1px #000;
 
-    --previewBackgroundColor: rgba(107, 255, 243, 0.75);
-    --previewShadowColor: rgba(0, 67, 211, 0.9);
-    --previewShadowsShadowColor: rgba(0, 0, 0, 0.7);
+    --previewBackgroundColor: #13C8E491;
+    --previewShadowColor: #338EC4;
+    --previewShadowsShadowColor: #000;
 
-    --previewBorderColor: #011bad;
-    --previewCornerFillColor: #fff;
+    --previewBorderColor: #1F1985;
+    --previewCornerFillColor: #FFF;
 
-    --postBackgroundColor: rgb(255, 255, 255);
-    --postTitleColor: black;
-    --postSummaryColor: #4b5156;
+    --githubTitleColor: #AA00FF;
 
-    --formButtonColor: rgb(46, 43, 206);
-    --formButtonTextColor: #fff;
-    --formElementColorOnHover: rgb(20, 22, 85);
+    --postBackgroundColor: #FFF;
+    --postTitleColor: #000;
+    --postSummaryColor: #4B5156;
 
-    --footerLinksColor: rgb(0, 60, 255);
+    --formButtonColor: #1F1985;
+    --formButtonTextColor: #FFF;
+    --formElementColorOnHover: #1026EC;
+    --inputFieldBackgroundColor: #FFF;
 
+    --footerLinksColor: #1026EC;
+    --footerLinksColorOnHover: #AA00FF;
 }

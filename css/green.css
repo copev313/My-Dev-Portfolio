@@ -1,33 +1,35 @@
 
 :root {
-    --mainColor: #56da56;
-    --secondaryColor: #60eb60;
-    --borderColor: #1d195e;
+    --mainColor: #72fd79;
+    --secondaryColor: #B9FEBC;
+    --borderColor: #000;
 
-    --mainTextColor: rgb(19, 43, 9);
-    --secondaryTextColor: #fff;
+    --mainTextColor: #000;
+    --secondaryTextColor: #000;
 
-    --linkTextColor: #0b24ff;
-    --linkTextColorOnHover: #8b59ff;
+    --linkTextColor: #0066FF;
+    --linkTextColorOnHover: #A341FF;
 
-    --themeDotBorderColor: #131516;
-    --shadowSettings: -1px 1px 3px -1px rgba(0,0,0,0.9);
+    --themeDotBorderColor: #000;
+    --shadowSettings: -1px 1px 3px -1px #000;
 
-    --previewBackgroundColor: rgba(107, 255, 243, 0.75);
-    --previewShadowColor: rgba(0, 67, 211, 0.9);
-    --previewShadowsShadowColor: rgba(0, 0, 0, 0.7);
+    --previewBackgroundColor: #16DD20CC;
+    --previewShadowColor: #11A618;
+    --previewShadowsShadowColor: #000;
 
-    --previewBorderColor: #011bad;
-    --previewCornerFillColor: #fff;
+    --previewBorderColor: #000;
+    --previewCornerFillColor: #FFF;
 
-    --postBackgroundColor: rgb(255, 255, 255);
-    --postTitleColor: black;
-    --postSummaryColor: #4b5156;
+    --postBackgroundColor: #FFF;
+    --postTitleColor: #000;
+    --postSummaryColor: #4B5156;
 
-    --formButtonColor: rgb(46, 43, 206);
+    --formButtonColor: #000;
     --formButtonTextColor: #fff;
-    --formElementColorOnHover: rgb(20, 22, 85);
+    --formElementColorOnHover: #4B5156;
 
-    --footerLinksColor: rgb(0, 60, 255);
+    --footerLinksColor: #0066FF;
 
 }
+
+#dot-3 { background-color: #2F9C3D; }

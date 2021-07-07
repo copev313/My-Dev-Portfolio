@@ -291,10 +291,10 @@ h6 { font-size: 16px; }
 #skills {
     display: flex;
     justify-content: space-between;
+    border-radius: 2%;
     background-color: var(--previewShadowColor);
     padding: 0.5em 3.5em 0.5em 1em;
     margin: 0 1em;
-    border-radius: 3%;
 }
 
 .language-title {
@@ -339,6 +339,11 @@ h6 { font-size: 16px; }
     box-shadow: var(--shadowSettings);
 }
 
+.post-subtitle {
+    font-size: 13px;
+    text-align: right;
+}
+
 #post-contents {
     display: grid;
     grid-template-columns: repeat(auto-fit, 320px);
@@ -360,11 +365,18 @@ h6 { font-size: 16px; }
     box-shadow: var(--shadowSettings);
 }
 
+.post:hover {
+    -webkit-box-shadow: -1px 1px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 8px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 8px -1px rgba(0,0,0,0.75);
+}
+
 .thumbnail {
     display: block;
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-bottom: 1px solid #C5C5C5;
 }
 
 .post-preview {
@@ -375,6 +387,7 @@ h6 { font-size: 16px; }
 
 .post-title {
     color: var(--postTitleColor);
+    text-decoration: none;
     font-size: 17px;
     font-weight: bold;
     margin: 0;
@@ -385,7 +398,10 @@ h6 { font-size: 16px; }
     font-weight: bold;
 }
 
-.post-title a:hover { color: var(--linkTextColorOnHover); }
+#post1-title { color: #009600; }
+#post2-title { color: #2FC6D1; }
+#post3-title { color: #FF9100; }
+#post4-title { color: #BD00EC; }
 
 .post-intro {
     color: var(--postSummaryColor);

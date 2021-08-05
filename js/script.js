@@ -4,14 +4,14 @@ console.log("Hello from JavaScript!");
 
 let theme = localStorage.getItem('theme');
 
-theme ? setTheme(theme) : setTheme(light);
+theme ? setTheme(theme) : setTheme('light');
 
 let themeDotsArr = document.getElementsByClassName('theme-dot')
 
 for (let i=0; themeDotsArr.length > i; i++) {
     themeDotsArr[i].addEventListener('click', () => {
         let mode = themeDotsArr[i].dataset.mode;
-        console.log(`ThemeTheme option clicked . . . ${mode}`);
+        console.log(`Theme option clicked . . . ${mode} selected!`);
         setTheme(mode);
     });
 }

@@ -21,14 +21,10 @@ Hi there, thanks for stopping by! This is my dev portfolio where you can learn a
 
 - [ ] Fill in my summaries
 
-- [X] Configuration for Netlify Forms
+- [ ] Create an updated resume
 
-- [ ] Add shoutout for toad.gif
+- [X] Configuration for Netlify Forms
 
 - [ ] Update deployment with final product
 
----------------------------
 
-### Shoutouts!
-
-- ...coming soon

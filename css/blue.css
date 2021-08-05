@@ -1,20 +1,36 @@
 
 :root {
-    --mainColor: #15202B;
-    --secondaryColor: #192734;
+    --mainColor: #8CD5FF;
+    --secondaryColor: #B1F3FF;
+    --borderColor: #1F1985;
 
-    --borderColor: #1c5f69;
+    --mainTextColor: #000;
+    --secondaryTextColor: #000;
 
-    --mainText: #fff;
-    --secondaryText: #eeeeee;
+    --linkTextColor: #1026EC;
+    --linkTextColorOnHover: #AA00FF;
 
-    --themeDotBorder: #fff;
+    --themeDotBorderColor: #000;
+    --shadowSettings: -1px 1px 3px -1px #000;
 
-    --shadowSettings: -1px 1px 3px -1px rgba(33, 13, 98, 0.8);
+    --previewBackgroundColor: #13C8E491;
+    --previewShadowColor: #338EC4;
+    --previewShadowsShadowColor: #000;
 
-    --previewBackground: rgba(25, 39, 52, 0.8);
-    --previewShadow: #071b3a;
-    --previewShadowsShadow: #030424;
+    --previewBorderColor: #1F1985;
+    --previewCornerFillColor: #FFF;
 
-    --buttonColor: black;
+    --githubTitleColor: #AA00FF;
+
+    --postBackgroundColor: #FFF;
+    --postTitleColor: #000;
+    --postSummaryColor: #4B5156;
+
+    --formButtonColor: #1F1985;
+    --formButtonTextColor: #FFF;
+    --formElementColorOnHover: #1026EC;
+    --inputFieldBackgroundColor: #FFF;
+
+    --footerLinksColor: #1026EC;
+    --footerLinksColorOnHover: #AA00FF;
 }

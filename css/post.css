@@ -1,0 +1,38 @@
+
+.post-title {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+p {
+    padding: 10px 0;
+}
+
+.tools-container {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.tools-container ul {
+    margin: 0 30px;
+}
+
+.screenshot-container img {
+    height: auto;
+    width: 30em;
+    border-radius: 2%;
+    margin: 25px;
+}
+
+.img-left {
+    float: left;
+}
+
+.img-right {
+    float: right;
+}
+
+.linkage {
+    color: #783EFF;
+}

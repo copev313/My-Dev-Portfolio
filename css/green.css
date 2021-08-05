@@ -1,20 +1,35 @@
 
 :root {
-    --mainColor: #606B56;
-    --secondaryColor: #515a48;
+    --mainColor: #72fd79;
+    --secondaryColor: #B9FEBC;
+    --borderColor: #000;
 
-    --borderColor: #161914;
+    --mainTextColor: #000;
+    --secondaryTextColor: #000;
 
-    --mainText: #fff;
-    --secondaryText: #eeeeee;
+    --linkTextColor: #0066FF;
+    --linkTextColorOnHover: #A341FF;
 
-    --themeDotBorder: #fff;
+    --themeDotBorderColor: #000;
+    --shadowSettings: -1px 1px 3px -1px #000;
 
-    --shadowSettings: -1px 1px 3px -1px rgba(3, 63, 21, 0.774);
+    --previewBackgroundColor: #16DD20CC;
+    --previewShadowColor: #11A618;
+    --previewShadowsShadowColor: #000;
 
-    --previewBackground: rgba(1, 61, 1, 0.8);
-    --previewShadow: #2e3b21;
-    --previewShadowsShadow: #003d0cc9;
+    --previewBorderColor: #000;
+    --previewCornerFillColor: #FFF;
 
-    --buttonColor: #669966;
+    --postBackgroundColor: #FFF;
+    --postTitleColor: #000;
+    --postSummaryColor: #4B5156;
+
+    --formButtonColor: #000;
+    --formButtonTextColor: #fff;
+    --formElementColorOnHover: #4B5156;
+
+    --footerLinksColor: #0066FF;
+
 }
+
+#dot-3 { background-color: #2F9C3D; }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects: Django-Ecommerce</title>
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"  rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"  rel="stylesheet" />
+    <link href="/css/default.css"  rel="stylesheet"  type="text/css" />
+    <link href="/css/post.css"     rel="stylesheet"  type="text/css" />
+</head>
+
+<body>
+    <div class="nav-wrapper">
+        <div class="dots-wrapper">
+            <a href="/index.html#past-projects">
+                <div id="dot-1" class="browser-dot"></div>
+            </a>
+            <div id="dot-2" class="browser-dot"></div>
+            <div id="dot-3" class="browser-dot"></div>
+        </div>
+        
+        <ul id="navigation">
+            <li>
+                <a href="/index.html#contact-form">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-container">
+        <h3 class="post-title">
+            <a href="https://github.com/copev313/Django-Ecommerce" target="_blank">
+                <ins>Boutsacado</ins>
+            </a>
+        </h3>
+        <p>This project is an eCommerce platform built using React, Redux, Django & Postgres. 
+            See some more of the tools that were utilized listed below:</p>
+
+        <div class="tools-container">
+            <ul>
+                <li>◼️
+                    <a href="https://react-bootstrap.github.io/" target="_blank">
+                        React-Bootstrap
+                    </a>
+                </li>
+                <li>◼️
+                    <a href="https://reactrouter.com/" target="_blank">
+                        React Router
+                    </a>
+                </li>
+                <li>◼️
+                    <a href="https://react-redux.js.org/" target="_blank">
+                        React Redux
+                    </a>
+                </li>
+                <li>◼️
+                    <a href="https://bootswatch.com/" target="_blank">
+                        Bootstrap / Bootswatch Themes
+                    </a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>◼️
+                    <a href="https://www.npmjs.com/package/axios" target="_blank">
+                        Local Storage API & Axios
+                    </a>
+                </li>
+                <li>◼️
+                    <a href="https://www.django-rest-framework.org/" target="_blank">
+                        Django REST Framework
+                    </a>
+                </li>
+                <li>◼️
+                    <a href="https://aws.amazon.com/" target="_blank">
+                        AWS S3 Buckets & RDS for PostgreSQL
+                    </a>
+                </li>
+                <li>◼️
+                    <a href="https://www.heroku.com/what" target="_blank">
+                        Heroku
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <p>
+            The goal of this project was to create a full featured eCommerce platform based around a Django backend and React frontend.
+            It incorporates proper product, user, and order management. There is a complete checkout process including Paypal intregration and order tracking.
+            The site implements user profiles to manage account information and placed orders. Products can be searched for, listed with pagination, and reviewed by registered users.
+            This application also includes state management using Redux and JWT user authentication.
+        </p>
+
+        <p>
+            Take a look at the live site here: 
+            <a href="http://www.boutsacado.com" class="linkage" target="_blank">
+                www.boutsacado.com</a>.
+        </p>
+
+        <p>
+            For deployment, we're currently handling image storage with Amazon's S3 Buckets. The database is being housed with AWS RDS for Postgres.
+            Hosting is being taken care of by a Heroku free tier dyno (it gets sleepy, so mind initial load times).
+        </p>
+
+        <div class="screenshot-container">
+            <img src="../images/controller_in_banner.png"
+                 alt="xbox controller banner screenshot"
+                 class="img-left"
+            />
+
+            <img src="../images/product_screen.png"
+                 alt="product screen screenshot"
+                 class="img-right"
+            />
+        </div>
+    </div>
+</body>
+</html>

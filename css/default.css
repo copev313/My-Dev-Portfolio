@@ -245,7 +245,10 @@ h6 { font-size: 16px; }
     height: 200px;
     border: 2px solid var(--previewBorderColor);
     background-color: var(--previewBackgroundColor);
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     position: relative;
 }
 

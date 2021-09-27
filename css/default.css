@@ -425,6 +425,7 @@ h6 { font-size: 16px; }
 #contact-form label {
     line-height: 2.75em;
     padding-left: 5px;
+    text-decoration: underline;
 }
 
 #contact-form input {
